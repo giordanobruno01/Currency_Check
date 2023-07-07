@@ -27,8 +27,8 @@ fetch(apiUrl)
       // Display the converted amount
      
 
-        document.getElementById("result").innerHTML = convertedAmount + " " + targetCurrency;
-        document.getElementById("dataString").innerHTML = data.conversion_rates[targetCurrency];
+        document.getElementById("result").innerHTML = amount + " " + currentCurrency + " = " + convertedAmount + " " + targetCurrency;
+        // document.getElementById("dataString").innerHTML = data.conversion_rates[targetCurrency];
 
     } else {
         document.getElementById("result").innerHTML = "Wrong "
